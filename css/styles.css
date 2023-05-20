@@ -1,14 +1,77 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: #222222;
 }
 
 
 .main{
-    background-image: url("gray_jean.png");
+
+}
+
+.hakkimizda{
+    background-image: url("../Images/gray_jean.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+
 }
 
+.hakkimizda-p{
+}
+.hakkimizda-i{
+}
+
+.hakkimizda-div-1{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.hakkimizda-div-2{
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+}
+.logo{
+    width: 80%;
+    height: 80%;
+}
+.hhh{
+    /*position: absolute;
+    right: 50%;*/
+}
+
+#navbarScroll{
+    /*position: absolute;
+    left: 0;*/
+}
+.info-and-map{
+    position: absolute;
+    background-color: black;
+
+}
+
+.map{
+    display: inline-block;
+    position: relative;
+}
+.info {
+    position: relative;
+    left: 0;
+
+    display: inline-block;
+    width: 50%;
+}
+
+.footer{
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.separator{
+    background-color: #222222;
+    width: 100%;
+    height: 50%;
+}
