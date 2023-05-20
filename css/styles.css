@@ -5,7 +5,7 @@ body, html {
 
 
 .main{
-    background-image: url("Images/gray_jean.png");
+    background-image: url("gray_jean.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
