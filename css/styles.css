@@ -2,15 +2,12 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: white;
+
 }
 
 
 .main {
 
-}
-
-.navbar-custom{
-    color: chocolate;
 }
 
 
@@ -54,7 +51,7 @@ body, html {
 }
 .info-and-map{
     position: relative;
-    background-color: #9DB2BF;
+    background-color: #19A7CE;
     
 }
 
@@ -77,7 +74,7 @@ body, html {
     position: absolute;
     margin-bottom: 0;
     width: 100%;
-    background-color: #526D82;
+    background-color: #146C94;
 
 
 }
@@ -90,10 +87,29 @@ body, html {
 }
 
 .hakkimizda-ana-sayfa{
-    background-color: #9DB2BF;
+    background-color: #AFD3E2;
+    line-height: 1.5em;
+    padding: 10%;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    position: relative;
 }
+.hakkimizda-logo{
 
+   
+
+}
+.hakkimizda-metin{
+    display: inline-block;
+
+
+}
+.leco{
+    padding-left: 43%;
+    padding-bottom: 5%;
+}
 
 .custom{
-    background-color: #9DB2BF;
+    background-color: #F6F1F1;
 }
+
