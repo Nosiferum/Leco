@@ -20,35 +20,12 @@ body, html {
 
 }
 
-.hakkimizda-p{
-}
-.hakkimizda-i{
-}
-
-.hakkimizda-div-1{
-    display: inline-block;
-    width: 50%;
-
-}
-
-.hakkimizda-div-2{
-    display: inline-block;
-    margin-top: 10px;
-    float: right;
-}
 .logo{
     width: 80%;
     height: 80%;
 }
-.hhh{
-    /*position: absolute;
-    right: 50%;*/
-}
 
-#navbarScroll{
-    /*position: absolute;
-    left: 0;*/
-}
+
 .info-and-map{
     position: relative;
     background-color: #19A7CE;
@@ -137,5 +114,33 @@ body, html {
     background-color: #F6F1F1;
 }
 
+.carousel-img-about{
+    position: relative;
+}
+
+
+.hakkimizda-div{
+    display: inline-block;
+    padding: 0 40% 0 0;
+    position: absolute;
+    left: 3%;
+    top: 150%;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.hakkimizda-carousel{
+    width: 500px;
+    position: absolute;
+    left: 65%;
+    top: 70%;
+}
+
+.başlık{
+    position: absolute;
+    top: 10%;
+
+}
 
 
