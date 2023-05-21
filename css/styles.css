@@ -136,6 +136,37 @@ body, html {
 .custom{
     background-color: #F6F1F1;
 }
+.carousel-img-about{
+    position: relative;
+}
 
+
+.hakkimizda-div{
+    display: inline-block;
+    padding: 0 40% 0 0;
+    position: absolute;
+    left: 3%;
+    top: 39%;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.hakkimizda-carousel{
+    width: 500px;
+    position: absolute;
+    left: 65%;
+    top: 47%;
+    border: solid;
+    border-radius: 1%;
+    border-color: lightslategrey;
+}
+
+.başlık{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+
+}
 
 
