@@ -242,5 +242,23 @@ hr{
 .hr-bg{
     background-color: lightslategrey;
 }
+.kalite-politikamız{
+    padding-top: 1%;
+
+    padding-right: 3%;
+    padding-left: 2%;
+    height: 300px;
+    line-height: 2em;
+}
+
+.kalite-başlık{
+
+}
+
+.kalite-metin{
+    display: inline-block;
+
+
+}
 
 
