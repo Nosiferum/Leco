@@ -170,78 +170,7 @@ body, html {
 .col{
     margin-top: 10px;
 }
-.borular, .boru-izolasyon-malzemeleri, .yivli-malzemeler, .itfaiye-sistem, .saportlama-malzemeleri, .yangın-iç-malzemeleri, .yangın-dolapları, .UL-FM{
-    width: 100%;
-    height: 50%;
-    background-color: lightslategrey;
-    position: relative;
-}
-.borular-resim{
-    position: absolute;
-    display: inline-block;
-    top: 30%;
-    left: 7%;
-}
-.borular-başlık{
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 47%;
 
-}
-
-.boru-izo-resim, .yivli-resim, .yangın-iç-resim, .yangın-dolapları-resim, .saportlama-resim, .itfaiye-sistem-resim, .UL-FM-resim{
-    position: relative;
-    display: inline-block;
-    top: 20%;
-    left: 7%;
-}
-
-.yangın-iç-başlık, .itfaiye-sistem-başlık, .UL-FM-başlık {
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 38%;
-}
-.yivli-başlık{
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 43.5%;
-}
-.boru-izo-başlık{
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 39%;
-}
-
-.saportlama-başlık{
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 40.5%;
-}
-
-.yangın-dolapları-başlık{
-    position: relative;
-    display: inline-block;
-    top: 10%;
-    left: 43.5%;
-}
-
-
-hr{
-   border-top: solid;
-    width: 25%;
-    margin: auto;
-    border-width: 1px;
-
-}
-
-.hr-bg{
-    background-color: lightslategrey;
-}
 .kalite-politikamız{
     padding-top: 1%;
 
@@ -255,10 +184,12 @@ hr{
 
 }
 
-.kalite-metin{
+.kalite-metin {
     display: inline-block;
-
-
 }
-
+.img{
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+}
 
