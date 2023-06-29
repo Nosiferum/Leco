@@ -794,8 +794,9 @@ header.smaller .Navigation li {
 .Services_sec .Line {
     border: solid 1px #ff9408;
     height: 2px;
-    width: 252px;
+    width: 400px;
     margin: auto;
+    margin-top: 20px;
 }
 
 .Services_sec .Serviceside {
@@ -1161,6 +1162,7 @@ header.smaller .Navigation li {
     height: 2px;
     width: 252px;
     margin: auto;
+    margin-top: 10px;
 }
 
 .Contact_sec .Pricingside {
@@ -1285,7 +1287,7 @@ header.smaller .Navigation li {
 .Get_sec .Rightside {
     padding-top: 12px;
     width: 48.18%;
-    float: right;
+    float: left;
 }
 
 .Get_sec .Rightside h3 {
@@ -1504,3 +1506,25 @@ footer .Cntr a:hover {
 .no-js #loader-wrapper {
     display: none;
 }
+
+
+.urunlerımızA{
+    padding: 11px 16px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px #b0bdc8;
+    background: rgba(64, 93, 118, 0.8);
+    transition: all 0.3s ease;
+}
+
+.urunlerımızA:hover {
+    background: #ff9000;
+    color: #fff;
+    border: solid 1px #ff9000;
+}
+
