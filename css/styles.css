@@ -3,10 +3,12 @@ body, html {
     margin: 0;
     background-color: white;
 }
+
 .main {
 
 }
-.hakkimizda{
+
+.hakkimizda {
     background-image: url("../Images/gray_jean.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -15,44 +17,36 @@ body, html {
 
 }
 
-.hakkimizda-p{
-}
-.hakkimizda-i{
-}
-
-.hakkimizda-div-1{
+.hakkimizda-div-1 {
     display: inline-block;
     width: 50%;
 
 }
 
-.hakkimizda-div-2{
+.hakkimizda-div-2 {
     display: inline-block;
     margin-top: 10px;
     float: right;
 }
-.logo{
+
+.logo {
     width: 80%;
     height: 80%;
 }
-.hhh{
-    /*position: absolute;
-    right: 50%;*/
-}
 
-#navbarScroll{
+#navbarScroll {
     /*position: absolute;
     left: 0;*/
 }
-.info-and-map{
+
+.info-and-map {
     position: relative;
     background-color: #19A7CE;
     height: 500px;
-    
+
 }
 
-
-.map-div{
+.map-div {
     display: inline-block;
     border: solid;
     border-width: 10px;
@@ -66,9 +60,10 @@ body, html {
     right: 5%;
 }
 
-.map{}
+.map {
+}
 
-.ıletısım{
+.ıletısım {
     display: inline-block;
     position: absolute;
     left: 5.5%;
@@ -84,7 +79,7 @@ body, html {
 
 }
 
-.footer{
+.footer {
     color: black;
     position: relative;
     bottom: 0;
@@ -94,58 +89,59 @@ body, html {
     padding: 0 35%;
 }
 
-.hakkimizda-ana-sayfa{
+.hakkimizda-ana-sayfa {
     background-color: #AFD3E2;
     line-height: 1.5em;
     padding: 10%;
-    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
     position: relative;
     width: 100%;
     height: 500px;
 }
-.hakkimizda-logo{
-   display: inline-block;
+
+.hakkimizda-logo {
+    display: inline-block;
     position: absolute;
     top: 37%;
     left: 5%;
 }
-.hakkimizda-metin{
+
+.hakkimizda-metin {
     display: inline-block;
     position: absolute;
     top: 25%;
     padding: 0 5%;
     margin-left: 10%;
-
-
 }
-.leco{
+
+.leco {
     display: inline-block;
     position: absolute;
     top: 10%;
     left: 25%;
 }
 
-.custom{
+.custom {
     background-color: #F6F1F1;
 }
-.carousel-img-about{
+
+.carousel-img-about {
     position: relative;
 }
 
-
-.hakkimizda-div{
+.hakkimizda-div {
     display: inline-block;
     padding: 0 40% 0 0;
     position: absolute;
     left: 3%;
     top: 39%;
-    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: normal;
     line-height: 1.5em;
 }
 
-.hakkimizda-carousel{
+.hakkimizda-carousel {
     width: 500px;
     position: absolute;
     left: 65%;
@@ -155,18 +151,17 @@ body, html {
     border-color: lightslategrey;
 }
 
-.başlık{
+.başlık {
     position: absolute;
     top: 25%;
     left: 3%;
-
 }
 
-.col{
+.col {
     margin-top: 10px;
 }
 
-.kalite-politikamız{
+.kalite-politikamız {
     padding-top: 1%;
 
     padding-right: 3%;
@@ -175,42 +170,58 @@ body, html {
     line-height: 2em;
 }
 
-.kalite-başlık{
-
-}
-
 .kalite-metin {
     display: inline-block;
 }
-.img{
+
+.img {
     border-width: 4px;
     border-color: black;
     border-style: solid;
 }
-/* Popup (arka plan) */
+
+.urunlerımızA {
+    padding: 11px 16px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px #b0bdc8;
+    background: rgba(64, 93, 118, 0.8);
+    transition: all 0.3s ease;
+}
+
+.urunlerımızA:hover {
+    background: #ff9000;
+    color: #fff;
+    border: solid 1px #ff9000;
+}
+
+
 .modal {
-    display: none; /* Varsayılan olarak gizlidir */
-    position: fixed; /* Yerinde kal */
-    z-index: 1; /* Üstte */
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; /* Ful Genişlik */
-    height: 100%; /* Ful Yükseklik */
-    overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
-    background-color: rgb(0,0,0); /* Yedek renk */
-    background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* İçerik / Kutu */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* % 15 üstten ve ortalanmış */
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    width: 80%;
 }
 
-/* Kapat Düğmesi */
 .close {
     color: #aaa;
     float: right;
